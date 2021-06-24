@@ -13,4 +13,3 @@ print(type(age))
 print("Aquib is " + age + "years old")
 
 age_in_words = "2 years"
-
