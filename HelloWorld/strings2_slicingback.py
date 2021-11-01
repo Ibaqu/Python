@@ -10,8 +10,8 @@ print(letters[4::-1]) #edcba
 print(letters[16:13:-1])
 
 # Python idioms
-print(letters[::-1])
-print(letters[-4:])
+print(letters[::-1]) # Flip the string
+print(letters[-4:]) # Last 4 items
 print(letters[-1:]) # Last item
 print(letters[:1])  # First item. Without errors if empty
 print(letters[0])   # First item, but with an error if empty
