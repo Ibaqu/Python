@@ -2,12 +2,14 @@
 #     print ("{} squared is {}".format(i, i ** 2))
 
 
-name = input("Please enter your name :")
+name = input("Please enter your name : ")
 age = int(input("How old are you {}?: ".format(name)))
 
 print(age)
 
 if age >= 18:
     print("You can vote {}".format(name))
+elif age <= 100:
+    print("You are too old")
 else:
     print("Please come back in {} years".format(18 - age))
